@@ -3,7 +3,7 @@
   "name": "#string",
   "type": "#string",
   "dimension": "#string",
-  "residents": "#notnull",
+  "residents": "#array",
   "url": "#string",
   "created": "#string"
 }

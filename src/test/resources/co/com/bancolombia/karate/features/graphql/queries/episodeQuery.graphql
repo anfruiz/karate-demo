@@ -1,0 +1,10 @@
+{
+    episodes(page: 1, filter: {name: "Mortyplicity"}) {
+        results {
+            name,
+            air_date,
+            id,
+            episode
+        }
+    }
+}

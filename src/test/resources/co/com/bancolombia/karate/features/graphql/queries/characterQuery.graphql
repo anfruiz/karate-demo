@@ -1,0 +1,8 @@
+{
+    characters(page: 1, filter: { name: "Smith" }) {
+        results {
+            name,
+            id
+        }
+    }
+}

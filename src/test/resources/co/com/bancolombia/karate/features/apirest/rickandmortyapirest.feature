@@ -5,6 +5,7 @@ Feature: Rick and Morty Api Rest
     * def earthLocation = read('../schemas/EarthLocation.json')
     * def locationSchema = read('../schemas/LocationSchema.json')
 
+  @API
   Scenario: GET Characters
     Given path '/api/character'
     When method GET
